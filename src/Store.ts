@@ -1,4 +1,4 @@
-import {createStore, combineReducers, applyMiddleware, compose} from 'redux';
+import {createStore, combineReducers} from 'redux';
 
 import {reducer as todoReducer} from './todos';
 import {reducer as filterReducer} from './filter';
